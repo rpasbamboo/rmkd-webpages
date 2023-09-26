@@ -1,0 +1,271 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  main, footer {
+    padding: 20px;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgb(105, 76, 92);
+    color: rgb(105, 76, 92);
+    background-Image:  linear-gradient(rgb(65, 34, 54) 3%, rgba(65, 34, 54, 0) 49%),url('../assets/bg.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 358px;
+  }
+ 
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  h1{
+   font-family: Lora, serif;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 700;
+   color: rgb(255, 240, 227);
+   padding: 25px;
+  }
+  
+  
+  main {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  footer {
+    background-color: #333;
+    background-color: #44233b;
+    padding: 10px 0;
+    height: 386px; ;
+  }
+  .header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(105, 76, 92);
+    border-bottom: 1px solid rgb(105, 76, 92);
+    padding: 10px 0px 120px 10px; 
+    box-sizing: border-box;
+    color: rgb(255, 240, 227);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  
+  
+  
+  
+  .nav-tabs {
+    list-style-type: none;
+    padding: 15px 15px 15px 15px;
+    
+    display: flex;
+  }
+  
+  .tab {
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 0px;
+    display: inline-block; 
+  }
+  
+  .left {
+    align-items: center;
+    display: inline-block;
+    padding-left: 280px;
+    padding-right: 15px;
+  }
+  .right {
+    padding-right: 0px;
+    padding-left: 200px;
+  }
+  
+  .tab a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: rgb(253, 143, 143);
+    outline-color: rgb(253, 143, 143);
+    font-weight: bold;
+  }
+  
+  .logo {
+    margin: 0px 30px 0px 0px;
+    color: rgb(255, 240, 227);
+    cursor: pointer;
+    height: 95px;
+    width: 120px;
+  }
+  .logo img {
+    height: 95px;
+    width: 120px;
+  }
+  
+  
+  .social-icons {
+    display: flex;
+    padding-right: 0px;
+  }
+  
+  .social-icons a {
+    background-color: rgb(126, 69, 85);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  
+  .social-icons :hover {
+    background-color: #ff0000;
+  }
+  
+  h1{
+   font-family: Lora, serif;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 700;
+   text-decoration-style: solid;
+   width: auto;
+   align-items: center;
+   padding-left: 550px;
+   padding-top: 100px;
+  }
+  
+  
+  .section {
+    display: flex;
+    padding: 120px 120px 0px 120px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 0 15px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .title-1 {
+    color: rgb(253, 143, 143);
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin: 0px;
+    letter-spacing: 6px;
+  }
+  
+  .title-2 {
+    color: rgb(68, 35, 59);
+    font-family: Lora, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin: 0px;
+    
+  
+  }
+  
+  .paragraph {
+    color: rgb(105, 76, 92);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 60px;
+    letter-spacing: 0.3px;
+    line-height: 28px; 
+  }
+  
+  img.circular {
+        
+        width: 512px;
+        height: 512px; 
+        border-radius: 50%;
+        object-fit: cover; 
+      }
+      
+      
+      
+      
+      
+      
+      
+  

@@ -1,0 +1,92 @@
+.header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(105, 76, 92);
+  border-bottom: 1px solid rgb(105, 76, 92);
+  padding: 10px 0px 20px 10px; 
+  box-sizing: border-box;
+  color: rgb(255, 240, 227);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+
+
+
+.nav-tabs {
+  list-style-type: none;
+  padding: 15px 0px 15px 15px;
+  align-items: center;
+  display: flex;
+}
+
+.tab {
+  cursor: pointer;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 0px;
+  display: inline-block; 
+}
+
+ .left {
+  padding-left: 200px;
+  padding-right: 0px;
+}
+.right {
+  padding-right: 180px;
+  padding-left: 20px;
+}
+
+.tab a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: rgb(253, 143, 143);
+  outline-color: rgb(253, 143, 143);
+  font-weight: bold;
+}
+
+.logo {
+  
+  color: rgb(255, 240, 227);
+  cursor: pointer;
+}
+.logo img {
+  height: 95px;
+  width: 120px;
+}
+
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  background-color: rgb(126, 69, 85);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+.social-icons :hover {
+  background-color: #ff0000;
+}
+
+h1{
+ font-family: Lora, serif;
+ font-size: 50px;
+ font-style: normal;
+ font-weight: 700;
+ text-decoration-style: solid;
+}
